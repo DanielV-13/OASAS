@@ -5,7 +5,7 @@ public abstract class Abstracta {
     }
 //Dice Adios
     public void decirAdios(){
-        System.out.println("Adios");
+        System.out.println("Chao");
     }
 
 }
