@@ -7,6 +7,10 @@ public class Persona extends Abstracta{
 
     private String nombre;
 
+    private String estra;
+    private String estra2;
+    private String estra3;
+
     @Override
     public void decirHola() {
         super.decirHola();
