@@ -1,4 +1,4 @@
-public class Persona {
+public class Persona extends Abstracta{
 
     //Atributos
 
@@ -6,4 +6,10 @@ public class Persona {
     private String nombre3;
 
     private String nombre;
+
+    @Override
+    public void decirHola() {
+        super.decirHola();
+        System.out.println("Adios");
+    }
 }
