@@ -11,6 +11,6 @@ public class Persona extends Abstracta{
     public void decirHola() {
         super.decirHola();
         System.out.println("Adios");
-        System.out.println("Prueba");
+        System.out.println("Pruebas");
     }
 }
